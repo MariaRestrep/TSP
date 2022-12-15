@@ -79,7 +79,7 @@ if __name__ == "__main__":
     
     for p in Packages:
     	for d in Distribution:
-    		for v in range(1):
+    		for v in range(10):
     			jobname = CreateJob(p, d, v)
     			filenew.write("sbatch %s \n" % (jobname))
 				
