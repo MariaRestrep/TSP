@@ -46,7 +46,7 @@ export LD_PRELOAD=/lib64/psm2-compat/libpsm_infinipath.so.1
 # Faire le lien entre SLURM et Intel MPI
 export I_MPI_PMI_LIBRARY=/usr/lib64/libpmi.so
 
-"""%(filename))
+"""%(filename[8:]))
 
 #SBATCH --mail-user=simon.thevenin@imt-atlantique.fr
 
